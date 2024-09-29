@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .projects {
+            margin-top: 40px;
+            display: flex;              
+            justify-content: center;     
+            align-items: center;        
+        }
+
+        .projects img {
+            width: 200px;              
+            height: 200px;
+            margin: 0 10px;             
+            object-fit: cover;           
+        }
+
+        a {
+            color: green;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <img src="Assets/foto .jpg" alt="profile" height="200" width="200" style="border-radius: 50%; object-fit: cover;">
+        <p>Hi, I'm 👋<strong>Muhammad Arya Kamal</strong>, a Mobile Developer in flutter. Below are some of my selected projects</p>
+        <a href="cv.html">personal CV</a>
+
+        <h2>Tech Stack</h2>
+        <div class="projects">
+            <img src="Assets/flutter.png" alt="flutter">
+            <img src="Assets/firebase.png" alt="firebase">
+        </div>
+
+        <h2>Eco Meal (process)</h2>
+        <p>A mobile application for e-waste</p>
+        <img src="Assets/ss.png" alt="projects">
+
+    </div>
+
+</body>
+</html>
