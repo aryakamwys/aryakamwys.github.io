@@ -1,0 +1,108 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbartop {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbartop li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbartop a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbartop a:hover {
+    color: #40A578; /* Warna hijau yang user prefer */
+}
+
+/* Container for Centering */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Mengikuti navbar */
+    padding-top: 100px; /* Menyesuaikan dengan tinggi navbar */
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+/* Card Style */
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.card h1 {
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin-top: 30px;
+}
+
+.card table {
+    width: 100%;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.card table td {
+    padding: 10px 0;
+}
+
+.card a {
+    color: #277453;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .navbartop li {
+        display: block;
+        margin: 10px 0;
+    }
+}
